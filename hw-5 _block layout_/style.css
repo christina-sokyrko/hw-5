@@ -1,0 +1,97 @@
+html {
+font-family: Lato;
+font-size: 25px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1248px;
+}
+.container {
+min-width: 100%;
+min-height: 100%;
+display: flex;
+flex-direction: column;
+}
+.header {
+min-width: 100%;
+min-height: 400px;
+padding: 50px;
+background-color: #D52047;
+display: flex;
+justify-content: space-around;
+
+}
+.text-left {
+  max-width: 33%;
+  color: #FFFFFF;
+  font-family: Lato;
+  display: flex;
+  flex-flow: column;
+}
+
+.picture {
+  max-width: 33%;
+}
+.pic {
+  height: 300px;
+
+}
+
+.main {
+min-width: 100%;
+min-height: 400px;
+background-color: #FFFFFF;
+display: flex;
+justify-content: space-around;
+}
+.contact {
+  color: black;
+  max-width: 33%;
+}
+.questionnaire {
+  max-width: 40%;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.name, .last-name {
+  border: solid black 1px;
+  width: 40%;
+  height: 30px;
+}
+.phone-number, .service {
+  border: solid black 1px;
+  width: 100%;
+  height: 30px;
+}
+.submit {
+  height: 30px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #D52047;
+  color: white;
+}
+.footer {
+
+min-width: 100%;
+min-height: 400px;
+background-color: #CCCCCC;
+display: flex;
+justify-content: space-around;
+}
+.adress {
+  max-width: 20%;
+}
+.adress {
+  max-width: 20%;
+}
+.services {
+  max-width: 20;
+}
+.medias {
+  display: flex;
+  justify-content: space-between;
+}
